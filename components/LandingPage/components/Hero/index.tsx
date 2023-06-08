@@ -10,7 +10,7 @@ const Hero = () => {
     <div className={styles.container}>
       <div className={styles.card}>
         <div className={styles.description}>
-        Let&apos;s turn your idea <br /><span>into a groundbreaking product</span>
+        LET&apos;S TURN YOUR IDEA <br /><span>INTO A GROUNDBREAKING PRODUCT</span>
         </div>
 
         <div className={styles.button}>

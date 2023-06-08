@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 .container {
   width: 100%;
@@ -7,21 +7,23 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-  
+  font-family: 'Oswald', sans-serif;
+
   .card {
     width: 500px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 10px;
-    font-family: 'Bebas Neue', sans-serif;
     background: #30303066;
     margin-top: 25px;
     border-radius: 15px;
     padding: 20px;
 
     .description {
-      font-size: 34px;
+      font-size: 42px;
+      font-weight: 500;
+
       :is(span) {
         color: #C73737;
       }
@@ -34,6 +36,7 @@
       border-radius: 15px;
       text-align: center;
       transition: 0.3s;
+      font-family: 'Inter', sans-serif;
 
       &:hover {
         cursor: pointer;
