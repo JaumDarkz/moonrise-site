@@ -6,7 +6,6 @@ import magnifier from '@/public/assets/icons/magnifier.svg'
 import relatory from '@/public/assets/icons/relatory.svg'
 import gear from '@/public/assets/icons/gear.svg'
 
-
 const Apresentation = () => {
   return (
     <div className={styles.container}>
@@ -47,7 +46,7 @@ const Apresentation = () => {
           <div className={styles.text}>
             É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras
           </div>
-          
+
           <div className={styles.lineContainer}>
             <div className={styles.line} />
           </div>
